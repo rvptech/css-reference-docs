@@ -115,3 +115,37 @@ h2 {
   background-color: aquamarine;
   color: green;
 }
+
+/* nav 3 */
+
+.nav3 {
+  background-color: #4e5760;
+  padding: 20px;
+}
+
+.nav3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav3 a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+  display: block;
+}
+
+.nav3 .dropdown-content {
+  display: none;
+}
+
+.nav3 .dropdown:hover .dropdown-content {
+  /* imp part */
+  display: block;
+  position: absolute;
+  background-color: #4e5760;
+}
